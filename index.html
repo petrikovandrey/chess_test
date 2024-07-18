@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Шашки</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="start">
+        <!-- <div class="players" id="player">Новая игра... </div> -->
+        <div class="panel">
+            <button class="reset border">С начала</button>
+        </div>
+    </div>
+    <div class="start">
+        <div id="p0">
+            <div class="avatar">First</div>
+            <input type="text" class="names" id="player0">
+        </div>
+        <div id="p1">
+            <div class="avatar">Second</div>
+            <input type="text" class="names" id="player1">
+        </div>
+    </div>
+
+    <div class="game_field">
+        <div class="game_item">
+
+            <!-- <div class="eaten" id="eatenP2">
+                <p>Кол-во</p>
+            </div> -->
+            <div class="numbers-row">
+
+            </div>
+            <div id="board">
+
+            </div>
+
+            <!-- <div class="eaten" id="eatenP1">
+                <p>Кол-во</p>
+            </div> -->
+        </div>
+        <div class="numbers-col">
+        </div>
+    </div>
+
+
+    <div id="modal" class="hidden">
+        <div id="modal__window">
+            <h2></h2>
+            <div id="modal__buttons">
+                <button class="reset">Играть еще</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
